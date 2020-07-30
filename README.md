@@ -36,3 +36,10 @@ We can also define a page’s PageRank using a recursive mathematical expression
 
 1. With probability 1 - d, the surfer chose a page at random and ended up on page p.
 2. With probability d, the surfer followed a link from a page i to page p.
+
+
+This gives us the following definition for the PageRank for a page p.
+
+PageRank formula
+
+In this formula, d is the damping factor, N is the total number of pages in the corpus, i ranges over all pages that link to page p, and NumLinks(i) is the number of links present on page i.
