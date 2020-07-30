@@ -21,6 +21,7 @@ PageRank Results from Iteration
 ```
 
 A website is more important if it is linked to by other important websites, and links from less important websites have their links weighted less. 
+This project, implements two approaches for calculating PageRank – calculating both by sampling pages from a Markov Chain random surfer and by iteratively applying the PageRank formula.
 
 ## Random Surfer Model
 Considers the behavior of a hypothetical surfer on the internet who clicks on links at random. The random surfer model imagines a surfer who starts with a web page at random, and then randomly chooses links to follow. 
@@ -42,6 +43,5 @@ This gives us the following definition for the PageRank for a page p.
 
 ![alt text](https://cs50.harvard.edu/ai/2020/projects/2/pagerank/images/formula.png)
 
-https://cs50.harvard.edu/ai/2020/projects/2/pagerank/images/formula.png
 
 In this formula, d is the damping factor, N is the total number of pages in the corpus, i ranges over all pages that link to page p, and NumLinks(i) is the number of links present on page i.
