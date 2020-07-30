@@ -40,6 +40,8 @@ We can also define a page’s PageRank using a recursive mathematical expression
 
 This gives us the following definition for the PageRank for a page p.
 
+![alt text](https://cs50.harvard.edu/ai/2020/projects/2/pagerank/images/formula.png)
+
 https://cs50.harvard.edu/ai/2020/projects/2/pagerank/images/formula.png
 
 In this formula, d is the damping factor, N is the total number of pages in the corpus, i ranges over all pages that link to page p, and NumLinks(i) is the number of links present on page i.
