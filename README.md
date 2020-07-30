@@ -1,7 +1,7 @@
 # Page Rank
 
 ## Built with Python 
-Porgram running: https://youtu.be/FDM4my1x3W8
+Program running: https://youtu.be/FDM4my1x3W8
 
 ## How to run (example)
 
