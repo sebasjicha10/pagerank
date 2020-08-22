@@ -3,6 +3,8 @@
 ## Built with Python - Probability theory & Markov model
 Program running: https://youtu.be/FDM4my1x3W8
 
+AI to rank web pages by importance.
+
 ## How to run (example)
 
 ```
